@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> bootstrap cheat sheet </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      .navbar{
+        margin-bottom:0;
+        border-radius:0;
+      }
+    </style>
+  </head>
+  <body> 
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Bootstrap Cheat Sheet</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+        </div>
+    </nav> <hr>
+    <!--Jumbotron-->
+     <div class="jumbotron text-center">
+      <div class="container">
+       <h1>Welcome to My Website</h1>
+       <p>
+          Website is a hyper-media information storage system linking resources around the world.
+       </p>
+       <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+     </div>
+    <!--typography-->
+    <div class="container"> 
+     <h1 class="page-header"> A Comprehensive Guide To Mobile App Design <small> UX </small> </h1>
+     <p class="lead"> Learn the difference between UI and UX </p>
+        <p>  <mark>The difference between a good app and a bad app is usually the quality of its user experience (UX).</mark> 
+         A good UX is what separates successful apps from unsuccessful ones.
+         <del>As</del> Today, <u> mobile users expect a lot from an app:</u> fast loading time,
+         ease of use and delight during interaction. 
+         If you want your app to be successful,
+         you have to consider UX to be not just a minor aspect of design,
+         but an essential component of product strategy. </p>
+      <hr>
+      <!--Alighenment & transformation -->
+      <p class="text-left text-lowercase">Left aligned text.</p>
+      <p class="text-right text-capitalize">Right aligned text.</p>
+      <p class="text-center text-uppercase">Center aligned text.</p>
+      <p class="text-justify">Justified text.</p>
+      <p class="text-nowrap">No wrap text.</p>
+
+      <!--quick floats-->
+      <div class="text-right">div float to right </div>
+      <div class="text-center">div to be center </div>
+
+      <!-- clear fix -->
+      <div class="clearfix"></div>
+      <hr>
+
+      <!--blockquote-->
+      <blockquote class="blockquote">
+       <p> There are many things to consider when designing for mobile.
+         In this article, 
+         I’ve summarized a lot of practical recommendations 
+         that you can apply to your design.</p> 
+      <footer>written by <cite title="Alaa Yehia"> Alaa Yehia </cite></footer>
+      </blockquote>
+      <hr>
+
+
+      <!--Lists-->
+      <ul class="list-inline">
+       <li>first item</li>
+       <li>second item</li>
+       <li>third item</li>
+       <li>fourth item</li>
+      </ul>
+
+      <hr>
+      <!-- contextual colors-->
+
+      <p class ="text-primary"> Hello there! </p>
+      <p class ="text-success"> how did you find our website? </p>
+      <p class ="text-info"> Any suggestions? </p>
+      <p class ="text-Warning"> Are you sure?! </p>
+      <p class ="text-danger"> I believe its not a good idea! </p>
+      <p class ="text-muted"> Okay! </p>
+
+      <!-- contextual  background colors-->
+
+      <p class ="bg-primary"> Hello there! </p>
+      <p class ="bg-success"> how did you find our website? </p>
+      <p class ="bg-info"> Any suggestions? </p>
+      <p class ="bg-Warning"> Are you sure?! </p>
+      <p class ="bg-danger"> I believe its not a good idea! </p>
+      <p class ="bg-muted"> Okay! </p>
+
+    </div>
+    <hr>
+    <!--buttons-->
+    <div class="container">
+
+      <button class="btn btn-default"> Default </button>
+      <a href="www.facebook.com" class="btn btn-default" role="button"> Link </a>
+      <input type="submit" class="btn btn-default" value="submit">
+      <br>
+
+      <!-- contextual buttons-->
+      <button class="btn btn-default"> Default </button>
+      <button class="btn btn-primary"> Primary </button>
+      <button class="btn btn-success"> Success </button>
+      <button class="btn btn-info"> Info </button>
+      <button class="btn btn-warning"> Warning </button>
+      <button class="btn btn-danger"> Delete </button>
+      <button class="btn btn-link"> Click </button>
+      <br>
+      
+      <!-- button sizes-->
+      <button class="btn btn-default btn-lg btn-warning">Home</button>
+      <button class="btn btn-default  btn-danger ">Home</button>
+      <button class="btn btn-default  btn-primary btn-sm">Home</button>
+      <button class="btn btn-default  btn-success btn-xs" disabled="disabled">Home</button>
+
+
+
+    </div>
+    <hr>
+    <!--forms-->
+    <div class="container">
+      <form>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Add Name"> 
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="Add Email"> 
+        </div>
+
+        <div class="form-group">
+            <label>Message</label>
+            <textarea class="form-control" placeholder="Add your Message"></textarea> 
+        </div>
+
+        <div class="form-group">
+            <label>Gender</label>
+            <select class="form-control">
+              <option value="male"> Male </option>
+              <option value="female"> Female </option>
+              <option value="other"> Other </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Upload File</label>
+            <input type="file">
+              <p class="help-block"> Only png & jpg allowed </p>    
+        </div>
+
+        <div class="form-group">
+            <label>
+                <input type="checkbox"> check me out
+            </label>  
+        </div>
+
+        <button type="submit" class="btn btn-default"> Submit </button>
+
+      </form>
+      <hr>
+
+      <!--Inline Forms-->
+      <form class="form-inline">
+          <div class="form-group">
+            <label> Email </label>
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+              <label> Password </label>
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>  
+                <button type="submit" class="btn btn-default"> Login </button>
+            </div>
+      </form>
+    </div> 
+    <hr>
+
+    <!--Tables-->
+    <div class="container">
+     <table class="table table-striped table-bordered table-hover table-condensed">
+       <tr>  
+         <th> First Name </th>
+         <th> Last Name </th>
+         <th> Age </th>
+       </tr>
+       <tr class="danger">  
+          <th> Alaa </th>
+          <th> Yehia </th>
+          <th> 26 </th>
+        </tr>
+        <tr class="warning">  
+            <th> Ahmed </th>
+            <th> Reda </th>
+            <th> 22 </th>
+        </tr>
+        <tr class="primary">  
+            <th> Omar </th>
+            <th> Mohammed </th>
+            <th> 21 </th>
+        </tr>
+        <tr class="success">  
+            <th> Rodina </th>
+            <th> Ashraf </th>
+            <th> 8 </th>
+        </tr>
+     </table>
+    </div>
+
+    <hr>
+    <!-- list group-->
+    <div class="container">
+      <ul class="list-group">
+         <li class="list-group-item list-group-item-danger">first item</li>
+         <li class="list-group-item list-group-item-warning">second item</li>
+         <li class="list-group-item list-group-item-success">third item</li>
+         <li class="list-group-item list-group-item-primary">fourth item</li>
+      </ul>
+      <hr>
+      <div class="list-group">
+           <a href="#"  class="list-group-item active">first item</a>
+           <a href="#"  class="list-group-item list-group-item-danger">second item</a>
+           <a href="#"  class="list-group-item list-group-item-success">third item</a>
+           <a href="#"  class="list-group-item list-group-item-warning">fourth item</a>
+           <a href="#"  class="list-group-item list disabled">fifth item</a>
+
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+     <!--Panels-->
+     <div class="panel panel-default">
+       <div class="panel-heading"> 
+        <h3 class="panel-title"> Panel Title</h3>
+       </div>
+       <div class="panel-body"> 
+        Panel content
+       </div>
+       <div class="panel-footer"> Panel Footer </div>
+     </div>
+    </div>
+    <hr> 
+    <!--Wells-->
+    <div class="well"> Hello every one </div>
+    <div class=" well well-lg"> Hello every one </div>
+    <div class="well well-sm"> Hello every one </div>
+    <hr>
+    <!-- Alerts -->
+    <div class="alert alert-success" role="alert"> A Success Alert</div>
+    <div class="alert alert-info" role="alert">An Info Alert</div>
+    <div class="alert alert-warning" role="alert">A Warning Alert</div>
+    <div class="alert alert-danger" role="alert">A Danger Alert</div>
+
+    <div class="alert alert-warning alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert"><span> &times;</span></button> 
+      you can close this alert.
+    </div>
+    <hr>
+
+    <!--Progress Bars-->
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%">
+       50%
+      </div>
+    </div>
+    <hr>  
+    <!--Labels-->
+    <span class="label label-default">Default</span>
+    <h1> Hello <span class="label label-primary">Primary</span></h1>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+    <hr>
+    <!--Badges-->
+     <a href="#">Inbox<span class="badge">50</span> </a>
+     <button class="btn btn-warning" type="button">
+        Inbox <span class="badge">30</span>
+      </button>
+     <button class="btn btn-primary" type="button">
+       Messages <span class="badge">2</span>
+     </button>
+  </div>
+  <hr>
+  <!--Images-->
+  <div class="container">
+   <img class="img-rounded" src="https://via.placeholder.com/150">
+   <img class="thumbnail" src="https://via.placeholder.com/150">
+   <img class="img-circle" src="https://via.placeholder.com/150">
+  </div>
+  <hr>
+  <!--Grids-->
+  <div class="container"> 
+    <div class="row">
+      <div class="col-md-8 col-sm-8 col-xs-8">
+       <p> Placeholder.com is a free image placeholder service for web designers,
+          serving billions and billions of images each year. You can specify image size & format (.GIF, .JPG, .PNG, .WEBP), background color & text color, as well as the text.
+       </p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4">
+          <p> Placeholder.com is a free image placeholder service for web designers.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-3">
+         <p> Placeholder.com is a free image placeholder service for web designers. </p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+            <p> serving billions and billions of images each year.</p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+            <p>You can specify image size & format (.GIF, .JPG, .PNG, .WEBP).</p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+            <p> background color & text color, as well as the text.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+           <p> Placeholder.com is a free image placeholder service for web designers,
+              serving billions and billions of images each year. You can specify image size & format (.GIF, .JPG, .PNG, .WEBP), background color & text color, as well as the text.
+           </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+              <p> Placeholder.com is a free image placeholder service for web designers.</p>
+          </div>
+        </div>
+        <div class="row">
+         <div class="col-md-1">
+            <h6> Bootstrap </h6>
+         </div>
+         <div class="col-md-1">
+            <h6> Cheat </h6>
+         </div>
+         <div class="col-md-1">
+            <h6>  Sheet </h6>
+         </div>
+         <div class="col-md-1">
+            <h6> Bootstrap  </h6>
+         </div>
+         <div class="col-md-1">
+            <h6> Cheat  </h6>
+         </div>
+         <div class="col-md-1">
+            <h6> Sheet  </h6>
+         </div>
+      </div>
+  </div>
+    
+  <div style="height:100px"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
